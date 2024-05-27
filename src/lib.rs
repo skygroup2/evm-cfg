@@ -1,3 +1,6 @@
+pub mod cfg_gen;
+
+
 #[derive(Debug, Clone, Copy, Default)]
 pub struct OutputHandler {
     pub show_timings: bool,

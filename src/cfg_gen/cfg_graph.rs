@@ -48,7 +48,7 @@ impl Debug for Edges {
     }
 }
 
-type CFGDag = GraphMap<(u16, u16), Edges, Directed>;
+pub type CFGDag = GraphMap<(u16, u16), Edges, Directed>;
 
 pub struct CFGRunner<'a> {
     pub cfg_dag: CFGDag,
